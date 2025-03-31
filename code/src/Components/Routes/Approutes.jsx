@@ -1,0 +1,110 @@
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "../Home/Home";
+import Contact from "../Contact/Contact";
+import Careers from "../Carrers/Careers.jsx"
+import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
+import Client from "../Client/Clients";
+import Work from "../Work/Work";
+import Gt from "../Work/Case study/Gt.jsx";
+import Hn from "../Work/Case study/Hn.jsx";
+import Te from "../Work/Case study/Te.jsx";
+import ScrollupWrapper from "../Preloader/ScrollupWrapper";
+import PreloaderWrapper from "../Preloader/PreloaderWrapper";
+import { IoCameraReverse } from "react-icons/io5";
+const Approutes = () => {
+  return (
+    <Router>
+      <Navbar />
+
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <ScrollupWrapper>
+              <PreloaderWrapper>
+                <Home />
+              </PreloaderWrapper>
+            </ScrollupWrapper>
+          }
+        />
+        <Route
+          path="/clients"
+          element={
+            <ScrollupWrapper>
+              <PreloaderWrapper>
+                <Client />
+              </PreloaderWrapper>
+            </ScrollupWrapper>
+          }
+        />
+
+        <Route
+          path="/work"
+          element={
+            <ScrollupWrapper>
+              <PreloaderWrapper>
+                <Work />
+              </PreloaderWrapper>
+            </ScrollupWrapper>
+          }
+        />
+        <Route
+          path="/gtholidays"
+          element={
+            <ScrollupWrapper>
+              <PreloaderWrapper>
+                <Gt />
+              </PreloaderWrapper>
+            </ScrollupWrapper>
+          }
+        />
+        <Route
+          path="/harrisnadar"
+          element={
+            <ScrollupWrapper>
+              <PreloaderWrapper>
+                <Hn />
+              </PreloaderWrapper>
+            </ScrollupWrapper>
+          }
+        />
+        <Route
+          path="/tinoengineering"
+          element={
+            <ScrollupWrapper>
+              <PreloaderWrapper>
+                <Te />
+              </PreloaderWrapper>
+            </ScrollupWrapper>
+          }
+        />
+        <Route
+          path="/careers"
+          element={
+            <ScrollupWrapper>
+              <PreloaderWrapper>
+                <Careers />
+              </PreloaderWrapper>
+            </ScrollupWrapper>
+          }
+        />
+        <Route
+          path="/contact"
+          element={
+            <ScrollupWrapper>
+              <PreloaderWrapper>
+                <Contact />
+              </PreloaderWrapper>
+            </ScrollupWrapper>
+          }
+        />
+      </Routes>
+
+      <Footer />
+    </Router>
+  );
+};
+
+export default Approutes;
