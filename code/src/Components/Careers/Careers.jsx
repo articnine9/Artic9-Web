@@ -1,9 +1,9 @@
 import React from 'react'
-import './Careers.css'
+import "./Careers.css"
 const Careers = () => {
   return (
     <>
-      
+      <h1>Careers</h1>
     </>
   )
 }

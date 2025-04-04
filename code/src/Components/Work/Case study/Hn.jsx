@@ -8,14 +8,16 @@ import harris from "../../../Assets/case-study/harris_nadar/harris.jpg";
 import abt from "../../../Assets/case-study/harris_nadar/about (3).png";
 import case1 from "../../../Assets/case-study/harris_nadar/case01.webp";
 import case2 from "../../../Assets/case-study/harris_nadar/case02.webp";
-import case3 from "../../../Assets/case-study/harris_nadar/case03.webp";
+import case3 from "../../../Assets/case-study/harris_nadar/case05.webp";
 import case4 from "../../../Assets/case-study/harris_nadar/case04.webp";
-import case5 from "../../../Assets/case-study/harris_nadar/case05.webp";
+import case5 from "../../../Assets/case-study/harris_nadar/case03.webp";
 import case6 from "../../../Assets/case-study/harris_nadar/case06.webp";
 // import faq1 from "../../../Assets/case-study/harris_nadar/grid-1.png";
 // import faq2 from "../../../Assets/case-study/harris_nadar/grid-2.png";
 // import faq3 from "../../../Assets/case-study/harris_nadar/grid-4.png";
 import video from "../../../Assets/case-study/harris_nadar/video.mov";
+
+// import harris1 from "../../../Assets/case-study/harris_nadar/harris_img.jpg";
 const Hn = () => {
   const cases = [case1, case2, case3, case4, case5, case6];
 
@@ -128,15 +130,22 @@ const Hn = () => {
             </div>
           </div>
         </div> */}
-         
+
         {/* Valentine-sec */}
         <div className="hn-vale">
           <div className="hn-vale-main">
             <div className="hn-vale-sec">
               <div className="hn-vale-img">
-                <video width={100} ref={videoRef} src={video} autoPlay loop muted>
-                    Your browser does not support the video.
-                  </video>
+                <video
+                  width={100}
+                  ref={videoRef}
+                  src={video}
+                  autoPlay
+                  loop
+                  muted
+                >
+                  Your browser does not support the video.
+                </video>
               </div>
             </div>
             <div className="hn-vale-sec1">
@@ -175,7 +184,7 @@ const Hn = () => {
             ))}
           </div>
         </div>
-  
+
         <Nextpage
           title="Tino Engineering"
           imageUrl={hnbanner}

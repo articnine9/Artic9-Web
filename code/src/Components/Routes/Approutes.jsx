@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "../Home/Home";
 import Contact from "../Contact/Contact";
-import Careers from "../Carrers/Careers.jsx"
+import Careers from "../Careers/Careers.jsx"
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import Client from "../Client/Clients";
@@ -12,7 +12,6 @@ import Hn from "../Work/Case study/Hn.jsx";
 import Te from "../Work/Case study/Te.jsx";
 import ScrollupWrapper from "../Preloader/ScrollupWrapper";
 import PreloaderWrapper from "../Preloader/PreloaderWrapper";
-import { IoCameraReverse } from "react-icons/io5";
 const Approutes = () => {
   return (
     <Router>

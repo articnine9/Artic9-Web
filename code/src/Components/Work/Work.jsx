@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./Work.css";
 
 // import model1 from "../../Assets/modal/mandalay-lake-monochrome-min.jpg";
@@ -328,6 +328,9 @@ const Work = () => {
               <p class="card-description">
                 Offers customized travel packages and tours for unique vacation
                 experiences
+                <br />
+                <span>Branding</span>
+                <span>Design</span>
               </p>
             </Link>
 
@@ -343,6 +346,9 @@ const Work = () => {
               <p class="card-description">
                 Crafting fine, high-quality jewelry that blends tradition with
                 modern design
+                <br />
+                <span>Branding</span>
+                <span>Design</span>
               </p>
             </Link>
 
@@ -358,6 +364,9 @@ const Work = () => {
               <p class="card-description">
                 Provides precision engineering solutions and system integrations
                 for diverse industries
+                <br />
+                <span>Branding</span>
+                <span>Design</span>
               </p>
             </Link>
 
@@ -369,6 +378,9 @@ const Work = () => {
               <p class="card-description">
                 Delivers exceptional catering services with a focus on quality
                 and taste for all events
+                <br />
+                <span>Branding</span>
+                <span>Design</span>
               </p>
             </Link>
 
@@ -380,6 +392,9 @@ const Work = () => {
               <p class="card-description">
                 A premium hospitality brand offering luxurious and comfortable
                 accommodations
+                <br />
+                <span>Branding</span>
+                <span>Design</span>
               </p>
             </Link>
 
@@ -391,6 +406,9 @@ const Work = () => {
               <p class="card-description">
                 Offers reliable, high-speed internet and broadband services for
                 homes and businesses
+                <br />
+                <span>Branding</span>
+                <span>Design</span>
               </p>
             </Link>
 
@@ -406,6 +424,9 @@ const Work = () => {
               <p class="card-description">
                 An architecture firm specializing in innovative and sustainable
                 design solutions
+                <br />
+                <span>Branding</span>
+                <span>Design</span>
               </p>
             </Link>
 
@@ -417,6 +438,9 @@ const Work = () => {
               <p class="card-description">
                 Leading provider of advanced elevator and escalator systems with
                 a focus on safety and performance
+                <br />
+                <span>Branding</span>
+                <span>Design</span>
               </p>
             </Link>
           </div>

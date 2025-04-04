@@ -1,28 +1,44 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { Carousel } from "react-bootstrap";
+
 import GT from "../../Assets/carousal/gt-bg.png";
 import BNI from "../../Assets/carousal/bni-bgs.png";
 import AT from "../../Assets/carousal/at-bg.png";
-import harris from "../../Assets/harris2.png";
-import Prag from "../../Assets/carousal/gt-bg.png";
+import harris from "../../Assets/carousal/Harris-bg.jpg";
+import arun from "../../Assets/carousal/arunachala-bg.jpg";
+import rajan from "../../Assets/carousal/gt-bg.png";
+
+import Tino from "../../Assets/carousal/gt-bg.png";
 import Del from "../../Assets/carousal/gt-bg.png";
+import Platez from "../../Assets/carousal/gt-bg.png";
+
 import Aksh from "../../Assets/carousal/akshya-bg.png";
+import Yi from "../../Assets/carousal/akshya-bg.png";
+import Juice from "../../Assets/carousal/gt-bg.png";
+
+
 import gtlogo from "../../Assets/gt-logo.png";
 import bnilogo from "../../Assets/clients-logo/Bni.png";
 import atlogo from "../../Assets/clients-logo/at.png";
 import harrislogo from "../../Assets/clients-logo/Harris Nadar Logo BlaCK.png";
-import praglogo from "../../Assets/clients-logo/Pragurp.jpg";
-import dellogo from "../../Assets/clients-logo/Delano.png";
-import akshlogo from "../../Assets/clients-logo/akshaya.jpg";
-import Tino from "../../Assets/carousal/gt-bg.png";
+import arunlogo from "../../Assets/clients-logo/Arunachala-logo.png";
+import rajanlogo from "../../Assets/clients-logo/Rajan-co.png";
+
 import tinologo from "../../Assets/clients-logo/tino-logo-gtm.png";
+import dellogo from "../../Assets/clients-logo/Delano.png";
+import platezlogo from "../../Assets/clients-logo/Platez.png";
+
+import akshlogo from "../../Assets/clients-logo/akshaya.jpg";
+import yilogo from "../../Assets/clients-logo/akshaya.jpg";
+import juicelogo from "../../Assets/clients-logo/akshaya.jpg";
+
 
 import "./Home.css";
 
 const CarouselComponent = () => {
-  const images = [GT, BNI, AT, harris, Tino, Del];
-  const logos = [gtlogo, bnilogo, atlogo, harrislogo, tinologo, dellogo];
+  const images = [GT, BNI, AT, harris, arun, rajan];
+  const logos = [gtlogo, bnilogo, atlogo, harrislogo, arunlogo, rajanlogo];
   const texts = [
     [
       "Does this ad & style look familiar?",
@@ -69,16 +85,16 @@ const CarouselComponent = () => {
     navigate(routes[index]);
   };
 
-  const images1 = [GT, Aksh, Del];
-  const smllogos = [gtlogo, akshlogo, dellogo];
+  const images1 = [Tino,Del, Platez ];
+  const smllogos = [tinologo, dellogo, platezlogo];
 
-  const images2 = [harris, AT, Prag];
-  const smllogos1 = [harrislogo, atlogo, praglogo];
+  const images2 = [Aksh, Yi, Juice];
+  const smllogos1 = [akshlogo, yilogo, juicelogo];
 
   return (
-    <div className="carousel-container"> 
+    <div className="carousel-container">
       <div className="carousel-section1">
-        <Carousel pause="false" interval={3000}>
+        <Carousel pause="false" interval={30000}>
           {images.map((image, index) => (
             <Carousel.Item key={index}>
               <div

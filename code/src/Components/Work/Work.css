@@ -70,9 +70,10 @@
   grid-column: span 2;
   grid-row: span 2;
   border-radius: 8px;
-  margin-bottom: 24px;
+  /* margin-bottom: 24px; */
   border: none;
   text-decoration: none;
+  /* border: 1px solid #eaeaea; */
 }
 
 .card-video-inner {
@@ -139,22 +140,33 @@
   transform: translateY(20px);
   transition: all 0.3s ease;
   visibility: hidden;
-
+  padding: 10px;
 }
 .card-link {
   display: inline-block;
   font-size: 32px;
-  font-weight: 600; 
-  margin: 0 0 4px;
+  font-weight: 600;
+  margin-left: 10px;
   line-height: 1.2;
 }
 .card:hover .card-description {
   opacity: 1;
   transform: translateY(0);
   visibility: visible;
-
 }
 
 .card:hover .card-video-inner img {
-  transform: scale(1.05);  
+  transform: scale(1.10);
+}
+
+.card-description span {
+  background: #919191;
+  color: #ffffff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  margin: 5px;
+  font-style: italic;
+  text-transform: capitalize;
 }

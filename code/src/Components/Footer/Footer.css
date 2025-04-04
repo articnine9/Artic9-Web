@@ -23,6 +23,6 @@
   background-color: #000 !important;
   background: url("../../Assets/footer-bg.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: fill;
   background-position: left top;
 }

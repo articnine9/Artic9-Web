@@ -423,11 +423,18 @@ article h5 {
 }
 .hn-cnt-img {
   width: 50%;
+  /* border: 1px solid; */
 }
 .hn-cnt-img img {
   height: 100%;
   width: 100%;
   object-fit: contain;
+}
+.harris-img{
+  height: 50% !important;
+  width: 50% !important;
+  object-fit: cover !important;
+  margin-left: 25%;
 }
 
 .hn-cntnts {
@@ -472,6 +479,7 @@ article h5 {
   justify-content: center;
   flex-wrap: wrap;
   /* border: 1px solid;   */
+  /* background: url(../../../Assets/); */
 }
 .hn-vale-main {
   width: 65%;
@@ -495,7 +503,7 @@ article h5 {
   overflow: hidden;
 }
 .hn-vale-img Video {
-  width: 100%;
+  width: 70%;
   height: 100%;
 }
 .hn-vale-sec1 {
