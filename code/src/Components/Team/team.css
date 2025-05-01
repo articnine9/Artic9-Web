@@ -1,0 +1,411 @@
+.team {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background: url(../../Assets/white-bg2.jpg);
+}
+
+.team-main {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.team-left {
+  padding: 20px;
+  width: 50%;
+}
+.team-right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+}
+.team-title {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  margin-bottom: 30px;
+  align-items: center;
+}
+.team-title img {
+  width: 120px;
+}
+.team-desc {
+  width: 70%;
+  display: flex;
+  justify-content: start;
+}
+.team-desc p {
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.team-view-more {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 20px;
+}
+.teamlink {
+  text-decoration: none;
+}
+.teamcta {
+  width: auto;
+  padding: 5px 14px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #f5e1a4;
+  display: flex;
+  align-items: center;
+}
+
+.teamcta span {
+  position: relative;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #234567;
+}
+
+.teamcta svg {
+  font-size: 20px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #234567;
+  stroke-width: 2;
+  margin-left: 5px;
+}
+
+.md-pics {
+  width: 48%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.md-img {
+  border-bottom: 2px solid #ffbf00;
+}
+.md-img img {
+  height: 370px;
+  border-radius: 30px;
+  /* background: radical-gradient(90deg, #ffc700, #ffce03, #ffc700, #ffc300, #ffba00, #fdb700); */
+}
+.md-desc {
+  width: 100%;
+  text-align: center;
+}
+.md-desc h5 {
+  color: #8a8a8a;
+}
+.profile-links {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 0px;
+}
+.profile-icon {
+  background-color: #dbbb5b;
+  border-radius: 20px;
+  padding: 10px;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+/* our-team */
+
+@import url("https://fonts.cdnfonts.com/css/porter-sans-block");
+
+.ourteam {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ourteam-head {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #ffcc26;
+}
+.ourteam-head-desc {
+  margin-top: 250px;
+  width: 70%;
+  text-align: center;
+  /* border: 1px solid; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 200px;
+}
+
+.ourteam-head-desc h4 {
+  font-size: 20px;
+}
+.ourteam-head-desc h2 {
+  font-size: 40px;
+}
+.ourteam-head-desc h4,
+.ourteam-head-desc h2 span {
+  font-family: "Porter Sans Block", sans-serif;
+  color: #000000;
+  text-align: center;
+}
+.ourteam-head-desc p {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  /* border: 1px solid; */
+}
+.ourteam-head-desc p,
+.ourteam-head-desc h4,
+.ourteam-head-desc h2 {
+  margin: 10px 0px;
+}
+
+.team-design-box {
+  position: relative;
+  top: 250px;
+  right: 200px;
+  border-radius: 30px;
+}
+.team-design-box1 {
+  position: relative;
+  top: 250px;
+  left: 200px;
+  border-radius: 30px;
+}
+.design-box1 {
+  border: 2px solid rgba(255, 255, 255, 0.829);
+  height: 500px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+}
+.design-box2 {
+  width: 60%;
+  height: 60%;
+  border: 2px solid rgba(194, 194, 194, 0.767);
+  border-radius: 30px;
+}
+
+.ourteam-desc {
+  width: 100%;
+  /* height: 200px; */
+  background-color: white;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ourteam-desc-main {
+  width: 80%;
+  margin: 100px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ourteam-desc-cnt {
+  width: 70%;
+}
+.ourteam-desc-main h3 {
+  font-size: 36px;
+  font-weight: 400;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.ourteam-desc-main p {
+  font-size: 16px;
+  font-weight: 600;
+  width: 80%;
+}
+
+.ourteam-desc-btn {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carrer-btn {
+  text-decoration: none;
+  background-color: black;
+  border-radius: 100%;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.career-svg {
+  color: #ffbf00;
+  font-size: 50px;
+}
+
+.ourteam-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ourteam-img-main {
+  height: 100%;
+  width: 80%;
+  margin: 50px 0px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 117px;
+}
+
+.ourteam-img-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 58.5px;
+}
+
+.teamcard {
+  height: 450px;
+  width: 400px;
+  background: url(../../Assets/team-3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.remove-when-use {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  color: black;
+  top: 85px;
+  font-weight: bold;
+}
+
+.details > p {
+  font-size: 12px;
+  margin-top: 0.5em;
+  font-weight: 400;
+}
+
+.details > label {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.details {
+  color: white;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 0;
+  height: 2.6em;
+  transition: height 0.5s ease-in-out;
+  padding: 8px 0px 25px 0px;
+  overflow: hidden;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+.teamcard:hover > .details {
+  height: 6.7em;
+}
+
+.work-together {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../../Assets/teambg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.work-together-main {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.work-together-main h4 {
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.work-together-main h2 {
+  text-transform: uppercase;
+  font-size: 120px;
+  width: 80%;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-left: auto;
+  font-weight: bolder;
+}
+.work-together-btn {
+  position: relative;
+  bottom: 32px;
+  right: 705px;
+  border: 10px solid white;
+  background-color: #ffbf00;
+  border-radius: 100%;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.contact-svg {
+  color: black;
+  font-size: 60px;
+  font-weight: 200;
+  margin-left: 5px;
+}
+.contactlink{
+  text-decoration: none;
+}
+.work-together-btn p {
+  color: black;
+  text-transform: capitalize;
+  font-weight: 500;
+  
+}

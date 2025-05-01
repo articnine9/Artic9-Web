@@ -463,7 +463,7 @@ const Clients = () => {
   };
 
   return (
-    <div className="clients-main">
+    <div className="clients-main">  
       <h3 className="clients-head">Our Trusted Partners</h3>
       <div className="client-sec">
         {clients.slice(0, 20).map((client, index) => (

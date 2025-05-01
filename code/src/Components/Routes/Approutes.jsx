@@ -12,6 +12,7 @@ import Hn from "../Work/Case study/Hn.jsx";
 import Te from "../Work/Case study/Te.jsx";
 import ScrollupWrapper from "../Preloader/ScrollupWrapper";
 import PreloaderWrapper from "../Preloader/PreloaderWrapper";
+import OurTeam from "../Team/OurTeam.jsx";
 const Approutes = () => {
   return (
     <Router>
@@ -95,6 +96,16 @@ const Approutes = () => {
             <ScrollupWrapper>
               <PreloaderWrapper>
                 <Contact />
+              </PreloaderWrapper>
+            </ScrollupWrapper>
+          }
+        />
+         <Route
+          path="/ourteam"
+          element={
+            <ScrollupWrapper>
+              <PreloaderWrapper>
+                <OurTeam />
               </PreloaderWrapper>
             </ScrollupWrapper>
           }

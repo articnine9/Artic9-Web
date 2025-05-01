@@ -21,10 +21,11 @@ import pic2 from "../../Assets/slider/seo-1-1.png";
 import pic3 from "../../Assets/slider/smo-1.webp";
 import pic4 from "../../Assets/slider/brand-te-blog-800x363.png";
 import pic5 from "../../Assets/slider/video-prod.jpg";
+import Team from "../Team/Team";
 
 const Home = () => {
   const imagesGrid1 = [grid1, grid5, grid4, grid2];
-  const imagesGrid2 = [grid2, grid4, grid1, grid5]; 
+  const imagesGrid2 = [grid2, grid4, grid1, grid5];
   // const imagesGrid3 = [grid3, grid6, grid7];
 
   const imagesGrid4 = [grid4, grid5];
@@ -187,7 +188,9 @@ const Home = () => {
           </div>
         </div>
       </div>
+      {/* ----------------------------------------------------Team------------------------------------------------- */}
 
+      <Team />
       {/* ----------------------------------------------------Clients------------------------------------------------- */}
       <Clients />
 
